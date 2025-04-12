@@ -1,0 +1,41 @@
+13. git fetch origin
+From https://github.com/boskovskid/SI_2025_lab1_235026
+ * [new branch]      1-remove-a-task-by-name -> origin/1-remove-a-task-by-name
+ * [new branch]      5-filter-tasks-by-category -> origin/5-filter-tasks-by-category
+ * [new branch]      8-mark-a-task-as-completed-by-name -> origin/8-mark-a-task-as-completed-by-name
+
+14. $ git checkout 1-remove-a-task-by-name
+    $ git checkout 5-filter-tasks-by-category
+    $ git checkout 8-mark-a-task-as-completed-by-name
+
+16. $ git add .
+    $ git commit -m "Implement Remove a task by name"
+    $ git add .
+    $ git commit -m "Implement Filyer tasks by category"
+    $ git add .
+    $ git commit -m "Implement Mark a task as completed by name"
+
+17. $ git push origin 1-remove-a-task-by-name
+    $ git push origin 5-filter-tasks-by-category
+    $ git push origin 8-mark-a-task-as-completed-by-name
+
+
+22. $ git checkout master
+    $ git merge 8-mark-a-task-as-completed-by-name
+    Updating 5694765..9b24d7e
+    Fast-forward
+    SI2025Lab1Main.java | 11 +++++++++++
+    1 file changed, 11 insertions(+)
+
+23. $ git pull origin master
+    $ git push origin master
+    Enumerating objects: 7, done.      
+    Counting objects: 100% (7/7), done.
+    Delta compression using up to 4 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (3/3), 520 bytes | 520.00 KiB/s, done.
+    Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/boskovskid/SI_2025_lab1_235026.git
+    57da94b..331f33d  master -> master
+

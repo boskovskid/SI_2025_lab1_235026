@@ -1,0 +1,16 @@
+*   331f33d Merge branch 'master' of https://github.com/boskovskid/SI_2025_lab1_235026
+|\  
+| *   57da94b Merge pull request #11 from boskovskid/5-filter-tasks-by-category
+| |\  
+| | * e1e4cbc Implement Filyer tasks by category
+| | * fd618f4 Implement Filter tasks by category
+| * |   7c2c4d6 Merge pull request #10 from boskovskid/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * ef33f15 Implement Remove a task by name
+| |/  
+* / 9b24d7e Implement Mark a task as completed by name
+|/  
+* 5694765 Add starter code
+* 1372a20 Initial commit
