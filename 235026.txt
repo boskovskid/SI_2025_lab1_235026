@@ -39,3 +39,7 @@ From https://github.com/boskovskid/SI_2025_lab1_235026
     To https://github.com/boskovskid/SI_2025_lab1_235026.git
     57da94b..331f33d  master -> master
 
+25. $ git add logs.txt 235026.txt
+    $ git commit -m "Final commit"
+    $ git pull origin master
+    $ git push origin master
